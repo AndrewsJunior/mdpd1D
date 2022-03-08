@@ -1,0 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           A Hybrid Method For Density Power Divergence Minimization With Application To Robust.     %
+%                            Univariate Location And Scale Estimation                                 %
+%               Copyright: (C) Andrews T. Anum and Michael Pokojovy (2022)                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Instructions:
+
+Breakdownpointanalysis.m compares the empirical breakdown point of MCD and MDPD(GD/NM) for various sample
+sizes. Increase the number of outliers and rerun Breakdownpointanalysis.m until breakdown occurs.

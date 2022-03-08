@@ -1,0 +1,21 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           A Hybrid Method For Density Power Divergence Minimization With Application To Robust.     %
+%                            Univariate Location And Scale Estimation                                 %
+%               Copyright: (C) Andrews T. Anum and Michael Pokojovy (2022)                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Instructions:
+
+APPEXAMPLE.m plots robust Q-Q graph, outlier detection graph and density graph for the time series data
+used.
+
+APPEXAMPLECOMPAR.m compares the MSEs of three location and scale estimators including our proposed hybrid
+MDPD(GD/NM), MCD and usual mean/standard deviation.  
+
+APPGBMEXAMPLE2.m plots the time series data, estimates the parameters of the GBM based on the first 144
+records (months) and makes predictions for the next 24 months. The program also estimates a prediction 
+region for the next 24 months and plots graphs for the predictions. 
+
+shade.m (Copyright (c) 2018 Javier Montalt Tordera)
+Source: https://www.mathworks.com/matlabcentral/fileexchange/69652-filled-area-plot?s_tid=prof_contriblnk
+This program used to shade our prediction region as shown in the paper.

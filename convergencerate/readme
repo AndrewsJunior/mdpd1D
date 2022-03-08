@@ -1,0 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           A Hybrid Method For Density Power Divergence Minimization With Application To Robust.     %
+%                            Univariate Location And Scale Estimation                                 %
+%               Copyright: (C) Andrews T. Anum and Michael Pokojovy (2022)                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Instructions:
+
+ConvergenceTable.m is a Matlab program that computes the convergence rates of our proposed method hybrid 
+MDPD(GD/NM) and reference estimator (MCD) applied to location and scale estimation with matched nominal 
+breakdown point values across various alpha's.
+
+ConvergenceTableRobust.m computes the convergence rates of our proposed method hybrid MDPD(GD/NM) and
+reference estimator MCD applied to location and scale estimation with matched nominal breakdown point
+values for various alpha's. Robust warmstart is used in this Matlab program.

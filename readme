@@ -1,0 +1,29 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           A Hybrid Method For Density Power Divergence Minimization With Application To Robust.     %
+%                            Univariate Location And Scale Estimation                                 %
+%               Copyright: (C) Andrews T. Anum and Michael Pokojovy (2022)                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The Matlab programs reproduce results reported in paper titled 
+	"A Hybrid Method for Density Power Divergence Minimization 
+	With Application to Robust Univariate Location And Scale Estimation" 
+by Andrews T. Anum and Michael Pokojovy.
+
+Instructions:
+
+1) The "examples" folder includes Matlab programs used to generate graphs reported in the Example section
+based on a time series data. See "examples/readme". 
+
+2) The "supplement" folder contains Matlab programs used to generate supplementary graphs.
+See "supplement/readme".
+
+3) The "runtimeanalysis" folder contains Matlab programs toperform runtime analysis 
+for our proposed method (hybrid MDPD (GD/NM)) vs. "plain" GD method. 
+See "runtimeanalysis/readme" for details.
+
+4) The "breakdownpointanalysis" folder contains the program to perform empirical breakdown point analysis 
+of our method vs. minimum covariance determinant (MCD) estimator. 
+See "runtimeanalysis/readme" for details.
+
+5) See "convergencerate/readme" for instructions on how to run a simulation to compare 
+the empirical convergence rate of our method vs. MCD.
